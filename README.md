@@ -1,8 +1,14 @@
 # Lecture 1: VPC's Architecture
-This is the first repository of the course <b>Formação de Containers na AWS</b>. On this lecture we created the VPC, subnets, api/nat gateway and parameters store, all using terraform with AWS provider.
+This is the first repository of the course <b>Formação de Containers na AWS</b>. On this lecture we created project's VPC, subnets, api/nat gateway and parameters store, all using terraform with AWS provider.
 
 ## Project Architecture Overview
 ![alt text](https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/5852094cf64af6e53095448a32a552a6.jpg)
+
+# What I have learned
+ * How to design subnets inside a vpc
+ * How to securely expose private subnets using nat gateway
+ * How to expose public subnets using api gateway
+ * How to plan cidr blocks for vpc and subnets
 
 ## Requirements
 
