@@ -1,5 +1,11 @@
 ### GENERAL CONFIGS ###
 
-variable "project_name" {}
+variable "project_name" {
+  description = "project name"
+  type = string
+}
 
-variable "region" {}
+variable "region" {
+  description = "region"
+    type = string
+}
